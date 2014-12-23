@@ -1,4 +1,4 @@
-Bloomberg Python API version 3.5
+Bloomberg Python API version 3.5+
 ================================
 
 This directory contains an interface for interacting with Bloomberg API
@@ -10,11 +10,11 @@ Dependencies
 
 This SDK requires the following products:
 
-- CPython version 2.6+
+- CPython version 2.6+, 3.4
 
 - Bloomberg C++ SDK version 3.5 or later
 
-- Visual C++ 2008 or 2010 (Windows) or GCC 4.1+ (Linux)
+- Visual C++ 2010 (Windows) or GCC 4.1+ (Linux)
 
 
 Installation

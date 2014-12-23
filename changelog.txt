@@ -1,6 +1,9 @@
 Revision history for Bloomberg Python SDK.
 
+Version 3.5.5+:
+===============
 - Python 3 compatibility
+- Upgrade to SWIG v3
 
 Version 3.5.5:
 ==============
