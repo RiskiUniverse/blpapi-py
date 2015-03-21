@@ -125,7 +125,7 @@ parts", blpapiDatetime)
             res.hours = dtime.hour
             res.minutes = dtime.minute
             res.seconds = dtime.second
-            res.milliSeconds = dtime.microsecond / 1000
+            res.milliSeconds = int(dtime.microsecond / 1000)
             res.parts = internals.DATETIME_DATE_PART | \
                 internals.DATETIME_TIMEMILLI_PART
         elif isinstance(dtime, _dt.date):
@@ -138,7 +138,7 @@ parts", blpapiDatetime)
             res.hours = dtime.hour
             res.minutes = dtime.minute
             res.seconds = dtime.second
-            res.milliSeconds = dtime.microsecond / 1000
+            res.milliSeconds = int(dtime.microsecond / 1000)
             res.parts = internals.DATETIME_TIMEMILLI_PART
         else:
             raise TypeError("Datetime could be created only from \
