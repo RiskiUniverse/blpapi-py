@@ -10,7 +10,7 @@ Dependencies
 
 This SDK requires the following products:
 
-- CPython version 2.6+, 3.4
+- CPython version 3.4+
 
 - Bloomberg C++ SDK version 3.5 or later
 
