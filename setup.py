@@ -35,7 +35,7 @@ if platform == 'win32':
         if (not ('VS90COMNTOOLS' in os.environ)) and \
                 ('VS100COMNTOOLS' in os.environ):
             os.environ['VS90COMNTOOLS'] = os.environ['VS100COMNTOOLS']
-elif platform == 'linux2':
+elif platform.startswith('linux'):
     blpapiLibraryPath = os.path.join(blpapiRoot, 'Linux')
     extraLinkArgs = []
 elif platform == 'darwin':
